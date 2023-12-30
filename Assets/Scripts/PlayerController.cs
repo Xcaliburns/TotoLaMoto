@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public float speed = 10f;
     Rigidbody2D rigidbody2d;
     Vector2 move;
+    public InputAction launchAction;
 
     // character Health
 
@@ -22,13 +23,20 @@ public class PlayerController : MonoBehaviour
     bool isInvincible;
     float damageCooldown;
 
+    Animator animator;
+    Vector2 moveDirection = new Vector2(1, 0);
+    public GameObject projectilePrefab;
+
 
     // Start is called before the first frame update
     void Start()
     {
         MoveAction.Enable();
+        launchAction.Enable();
+        launchAction.performed += Launch;
         rigidbody2d = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
+        animator = GetComponent<Animator>();
     }
 
 
@@ -36,6 +44,15 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         move = MoveAction.ReadValue<Vector2>();
+
+        if (!Mathf.Approximately(move.x, 0.0f) || !Mathf.Approximately(move.y, 0.0f))
+        {
+            moveDirection.Set(move.x, move.y);
+            moveDirection.Normalize();
+        }
+        animator.SetFloat("Look X", moveDirection.x);
+        animator.SetFloat("Look Y", moveDirection.y);
+        animator.SetFloat("Speed", move.magnitude);
 
         if (isInvincible)
         {
@@ -64,7 +81,10 @@ public class PlayerController : MonoBehaviour
             }
             isInvincible = true;
             damageCooldown = timeInvincible;
+            animator.SetTrigger("Hit");
         }
+
+
 
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
 
@@ -78,15 +98,21 @@ public class PlayerController : MonoBehaviour
             {
                 Debug.LogError("Instance de UiHandlerNew introuvable.");
             }
-            
+
         }
         catch (Exception e)
         {
             Debug.LogError("Une erreur s'est produite lors de la mise à jour de la barre de santé : " + e.Message);
         }
 
+    }
 
-
+    void Launch(InputAction.CallbackContext context)
+    {
+        GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2d.position + Vector2.up * 0.5f, Quaternion.identity);
+        MyProjectile projectile = projectileObject.GetComponent<MyProjectile>();
+        projectile.Launch(moveDirection, 300);
+        animator.SetTrigger("Launch");
     }
 
 

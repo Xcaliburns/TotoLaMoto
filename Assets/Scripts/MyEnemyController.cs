@@ -7,6 +7,8 @@ public class MyEnemyController : MonoBehaviour
 
     public float speed;
     public bool vertical;
+    public GameObject deathParticles;
+    bool aggressive = true;
     public float changeTime = 3.0f;
 
     // Private variables
@@ -27,8 +29,12 @@ public class MyEnemyController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        timer -= Time.deltaTime;
+        if (!aggressive)
+        {
+            return;
+        }
 
+        timer -= Time.deltaTime;
 
         if (timer < 0)
         {
@@ -56,12 +62,38 @@ public class MyEnemyController : MonoBehaviour
         rigidbody2d.MovePosition(position);
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    /* Tutorial says to proced like that but I Use OnTriggerEnter function 
+     
+     private void OnCollisionEnter2D(Collision2D other)
+        {
+            PlayerController player = other.gameObject.GetComponent<PlayerController>();
+            if (player != null)
+            {
+                player.ChangeHealth(-1);
+                Debug.Log("la tete a toto");
+            }
+        }*/
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        PlayerController player = other.gameObject.GetComponent<PlayerController>();
+        PlayerController player = collision.gameObject.GetComponent<PlayerController>();
         if (player != null)
         {
             player.ChangeHealth(-1);
         }
+    }
+
+    public void Fix()
+    {
+        aggressive = false;
+        rigidbody2d.simulated = false;
+        Destroy(gameObject);
+        Debug.Log("AIeeee");
+    }
+
+    private void OnDestroy()
+    {
+        Instantiate(deathParticles, transform.position, Quaternion.identity);
+        
     }
 }
