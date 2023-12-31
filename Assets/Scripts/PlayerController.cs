@@ -7,10 +7,12 @@ public class PlayerController : MonoBehaviour
 {
     // Character Movements
     public InputAction MoveAction;
+    public InputAction launchAction;
+    public InputAction talkAction;
     public float speed = 10f;
     Rigidbody2D rigidbody2d;
     Vector2 move;
-    public InputAction launchAction;
+
 
     // character Health
 
@@ -27,6 +29,9 @@ public class PlayerController : MonoBehaviour
     Vector2 moveDirection = new Vector2(1, 0);
     public GameObject projectilePrefab;
 
+    public bool canShot;
+    public float nextShot = 0.1f;
+
 
     // Start is called before the first frame update
     void Start()
@@ -34,9 +39,12 @@ public class PlayerController : MonoBehaviour
         MoveAction.Enable();
         launchAction.Enable();
         launchAction.performed += Launch;
+        talkAction.Enable();
         rigidbody2d = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
         animator = GetComponent<Animator>();
+        canShot = true;
+        talkAction.performed += FindFriend;
     }
 
 
@@ -109,10 +117,36 @@ public class PlayerController : MonoBehaviour
 
     void Launch(InputAction.CallbackContext context)
     {
-        GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2d.position + Vector2.up * 0.5f, Quaternion.identity);
-        MyProjectile projectile = projectileObject.GetComponent<MyProjectile>();
-        projectile.Launch(moveDirection, 300);
-        animator.SetTrigger("Launch");
+        if (canShot)
+        {
+            GameObject projectileObject = Instantiate(projectilePrefab, rigidbody2d.position + Vector2.up * 0.5f, Quaternion.identity);
+            MyProjectile projectile = projectileObject.GetComponent<MyProjectile>();
+            projectile.Launch(moveDirection, 300);
+            animator.SetTrigger("Launch");
+            canShot = false;
+        }
+        else
+        {
+            nextShot -= Time.deltaTime;
+            canShot = true;
+        }
+
+    }
+
+    void FindFriend(InputAction.CallbackContext context)
+
+    {
+
+        Vector2 start = rigidbody2d.position + Vector2.up * 0.2f;
+        Vector2 direction = moveDirection;
+        float distance = 1f;       
+
+        RaycastHit2D hit = Physics2D.Raycast(start, direction, distance, LayerMask.GetMask("NPC"));
+
+        if (hit.collider != null)
+        {
+            Debug.Log("salut mec ça gaze ?" + hit.collider.gameObject);
+        }
     }
 
 

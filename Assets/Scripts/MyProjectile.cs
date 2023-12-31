@@ -7,10 +7,12 @@ public class MyProjectile : MonoBehaviour
    
     Rigidbody2D rigidbody2d;
     Vector2 move;
+    float lifetime = 4.0f;
     // Start is called before the first frame update
     void Awake()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
+        Destroy(gameObject, lifetime);
     }
 
 

@@ -165,7 +165,6 @@ MonoBehaviour:
       m_Action: Move
       m_Flags: 8
     m_Flags: 0
-  speed: 10
   launchAction:
     m_Name: Launch
     m_Type: 1
@@ -183,10 +182,30 @@ MonoBehaviour:
       m_Action: Launch
       m_Flags: 0
     m_Flags: 0
+  talkAction:
+    m_Name: 
+    m_Type: 1
+    m_ExpectedControlType: Button
+    m_Id: 83e55300-689d-42f2-8473-74d7bbd0c447
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 41e9cd21-1cc3-4186-bd8b-7683e10d9858
+      m_Path: <Keyboard>/e
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Talk
+      m_Flags: 0
+    m_Flags: 0
+  speed: 10
   maxHealth: 5
   timeInvincible: 2
   projectilePrefab: {fileID: 2095705052466677169, guid: 98b143b8da4fd0b43a3f0ff838cfd86a,
     type: 3}
+  canShot: 0
+  nextShot: 0.1
 --- !u!50 &-3424007243380346681
 Rigidbody2D:
   serializedVersion: 4
@@ -246,7 +265,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.65237296}
+  m_Offset: {x: -0.020430326, y: 0.2210378}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0}
@@ -257,7 +276,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.90625, y: 1.3047459}
+  m_Size: {x: 0.6595659, y: 0.4420756}
   m_EdgeRadius: 0
 --- !u!95 &3289662873363186261
 Animator:
