@@ -1,0 +1,1143 @@
+fileFormatVersion: 2
+guid: 7143abc7767bebb43b637198d54f5e82
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 760
+        width: 96
+        height: 184
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b41d09970c10d4a82277aa9c58f9ff
+      internalID: -2140132881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 764
+        width: 96
+        height: 184
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436031ca19a968940b1af6d0f33084e2
+      internalID: -1309392846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 760
+        width: 104
+        height: 184
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873b3c82bfa315b479290df6b3545dee
+      internalID: 767286635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_3
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 760
+        width: 88
+        height: 184
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f8fd6d933e1d9f459b82264c815082b
+      internalID: -1094779328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_4
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 764
+        width: 88
+        height: 184
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f28bd50ec9228f46a287b5b5bb8432c
+      internalID: -1426743502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_5
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 760
+        width: 88
+        height: 184
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9def98c9785593f47acf003e65f9a705
+      internalID: 1424276559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_6
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 760
+        width: 104
+        height: 172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938e6db350dc6c446bb9552bd6c897f6
+      internalID: -1765220557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_7
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 760
+        width: 104
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d067978fe2ddff540b6026c0665ca671
+      internalID: -1743162999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_8
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 760
+        width: 112
+        height: 172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee460db50eaedad43a8c40b09852f302
+      internalID: 1735899952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_9
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 760
+        width: 104
+        height: 148
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a565e32701a0a43902a87bd8a026a2
+      internalID: 1677736106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_10
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 568
+        width: 112
+        height: 172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b996211da7856e747b023681263f72cd
+      internalID: 282543804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_11
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 572
+        width: 144
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41c0dc6ca7b9084ea29b997f1b60f0a
+      internalID: -1491943993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_12
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 568
+        width: 104
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef8e103ac2da1c47a2d297eac6ceb8d
+      internalID: 1454191173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_13
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 568
+        width: 104
+        height: 172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bf3a7711af7f94aa12752b2b5008fd
+      internalID: -635153440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_14
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 568
+        width: 116
+        height: 172
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f5e2c4b76f4cf48bc08fd7af9490a5
+      internalID: 2119448132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_15
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 572
+        width: 116
+        height: 184
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffa63f4e5423354c811fd951e6708f0
+      internalID: -201812284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_16
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 572
+        width: 108
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dae7a44825b7714b8e7f01a58ef31d8
+      internalID: 1785476212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_17
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 572
+        width: 108
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11c1c05067fb4446aed7ddfc084f0c3
+      internalID: 347545117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_18
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 572
+        width: 96
+        height: 184
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655154f1d7ea02c4ca61ebca5737dd80
+      internalID: -2017503462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_19
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 572
+        width: 116
+        height: 184
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9d05ea67458514a969a6f782a178ae
+      internalID: -1047497806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 380
+        width: 116
+        height: 184
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4742cddfcff80f540837186bb282903c
+      internalID: 1457597299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 380
+        width: 96
+        height: 184
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719f0cf1cb96bab44bf88877ee5256cc
+      internalID: -2042681603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 380
+        width: 96
+        height: 184
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 264f353399dabb9468c7f5d640f80d37
+      internalID: 757014409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_23
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 380
+        width: 96
+        height: 184
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b75f1c0088bba9458c6b126bc791c30
+      internalID: 28065567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_24
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 380
+        width: 104
+        height: 184
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 483df3a4fcdfd8c40a7016a3a9f65967
+      internalID: 717527177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_25
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 380
+        width: 96
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb499481bbe975f4c99ddd2be406dfd8
+      internalID: 1104282758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_26
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 552
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1372aa0d66faccb4db121479dc2aa8c0
+      internalID: 473190583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_27
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 384
+        width: 116
+        height: 176
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7469a1bed83ace54e81a244e5854a197
+      internalID: 433438549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_28
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 380
+        width: 96
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf65d6981bbc4ba4eb0c15f97811a3cb
+      internalID: 1373282876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_29
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 380
+        width: 92
+        height: 184
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1043d9234253824da0b93e1f2001190
+      internalID: 879961314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_30
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 540
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6373b6046b14945bf15fc4d1d6ef25
+      internalID: 1944063621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_31
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 516
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ceaa66e22739a3428316ca0545b8f11
+      internalID: 1663256318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_32
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 380
+        width: 188
+        height: 96
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c139acf27e23a574191e6fd749aea8f1
+      internalID: -655796718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_33
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 188
+        width: 96
+        height: 184
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e29bbdb56e7b9447afc532687523b4e
+      internalID: 1520062785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 188
+        width: 96
+        height: 188
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e00083eb0ec8e94698601b6e3e22693
+      internalID: -1319163137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_35
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 188
+        width: 88
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad771a68baeb3649990824e2704dbb8
+      internalID: -50426860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_36
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 184
+        width: 116
+        height: 184
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f6810ff322e4a41a24218ad8093b7f
+      internalID: 568258327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_37
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 188
+        width: 104
+        height: 184
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460c5d21858eed346b52a300bacb7193
+      internalID: 490636745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_38
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 184
+        width: 104
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6e3bcd91499e241b42e008f1ac7621
+      internalID: -746054457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_39
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 188
+        width: 96
+        height: 184
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180934e6d5fc1544bb0100baf9437772
+      internalID: -1164435280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_40
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 188
+        width: 96
+        height: 184
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c53e318e704b5840b8490eb93a637ac
+      internalID: -347275603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_41
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 188
+        width: 108
+        height: 120
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1730a81e867bf4d9fd6ffc30746e04
+      internalID: -1837931644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_42
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 192
+        width: 148
+        height: 168
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80de12431b3a934b8c988cee5a4e509
+      internalID: 1845659836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_43
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 120
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be8a7423f0fdfb345b802dfa56542bd4
+      internalID: -333801548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_final-fantasy-png_626389_44
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 0
+        width: 128
+        height: 180
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba40e22ac43a604cb6a07be76d7dd36
+      internalID: -799694945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SeekPng.com_final-fantasy-png_626389_0: -2140132881
+      SeekPng.com_final-fantasy-png_626389_1: -1309392846
+      SeekPng.com_final-fantasy-png_626389_10: 282543804
+      SeekPng.com_final-fantasy-png_626389_11: -1491943993
+      SeekPng.com_final-fantasy-png_626389_12: 1454191173
+      SeekPng.com_final-fantasy-png_626389_13: -635153440
+      SeekPng.com_final-fantasy-png_626389_14: 2119448132
+      SeekPng.com_final-fantasy-png_626389_15: -201812284
+      SeekPng.com_final-fantasy-png_626389_16: 1785476212
+      SeekPng.com_final-fantasy-png_626389_17: 347545117
+      SeekPng.com_final-fantasy-png_626389_18: -2017503462
+      SeekPng.com_final-fantasy-png_626389_19: -1047497806
+      SeekPng.com_final-fantasy-png_626389_2: 767286635
+      SeekPng.com_final-fantasy-png_626389_20: 1457597299
+      SeekPng.com_final-fantasy-png_626389_21: -2042681603
+      SeekPng.com_final-fantasy-png_626389_22: 757014409
+      SeekPng.com_final-fantasy-png_626389_23: 28065567
+      SeekPng.com_final-fantasy-png_626389_24: 717527177
+      SeekPng.com_final-fantasy-png_626389_25: 1104282758
+      SeekPng.com_final-fantasy-png_626389_26: 473190583
+      SeekPng.com_final-fantasy-png_626389_27: 433438549
+      SeekPng.com_final-fantasy-png_626389_28: 1373282876
+      SeekPng.com_final-fantasy-png_626389_29: 879961314
+      SeekPng.com_final-fantasy-png_626389_3: -1094779328
+      SeekPng.com_final-fantasy-png_626389_30: 1944063621
+      SeekPng.com_final-fantasy-png_626389_31: 1663256318
+      SeekPng.com_final-fantasy-png_626389_32: -655796718
+      SeekPng.com_final-fantasy-png_626389_33: 1520062785
+      SeekPng.com_final-fantasy-png_626389_34: -1319163137
+      SeekPng.com_final-fantasy-png_626389_35: -50426860
+      SeekPng.com_final-fantasy-png_626389_36: 568258327
+      SeekPng.com_final-fantasy-png_626389_37: 490636745
+      SeekPng.com_final-fantasy-png_626389_38: -746054457
+      SeekPng.com_final-fantasy-png_626389_39: -1164435280
+      SeekPng.com_final-fantasy-png_626389_4: -1426743502
+      SeekPng.com_final-fantasy-png_626389_40: -347275603
+      SeekPng.com_final-fantasy-png_626389_41: -1837931644
+      SeekPng.com_final-fantasy-png_626389_42: 1845659836
+      SeekPng.com_final-fantasy-png_626389_43: -333801548
+      SeekPng.com_final-fantasy-png_626389_44: -799694945
+      SeekPng.com_final-fantasy-png_626389_5: 1424276559
+      SeekPng.com_final-fantasy-png_626389_6: -1765220557
+      SeekPng.com_final-fantasy-png_626389_7: -1743162999
+      SeekPng.com_final-fantasy-png_626389_8: 1735899952
+      SeekPng.com_final-fantasy-png_626389_9: 1677736106
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

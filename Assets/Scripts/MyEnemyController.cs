@@ -11,6 +11,10 @@ public class MyEnemyController : MonoBehaviour
     bool aggressive = true;
     public float changeTime = 3.0f;
 
+
+
+
+
     // Private variables
     Rigidbody2D rigidbody2d;
     float timer;
@@ -18,17 +22,24 @@ public class MyEnemyController : MonoBehaviour
 
     Animator animator;
 
+
+
     // Start is called before the first frame update
     void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         timer = changeTime;
+
+
+
     }
 
 
     private void FixedUpdate()
     {
+
+
         if (!aggressive)
         {
             return;
@@ -62,17 +73,6 @@ public class MyEnemyController : MonoBehaviour
         rigidbody2d.MovePosition(position);
     }
 
-    /* Tutorial says to proced like that but I Use OnTriggerEnter function 
-     
-     private void OnCollisionEnter2D(Collision2D other)
-        {
-            PlayerController player = other.gameObject.GetComponent<PlayerController>();
-            if (player != null)
-            {
-                player.ChangeHealth(-1);
-                Debug.Log("la tete a toto");
-            }
-        }*/
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -86,14 +86,20 @@ public class MyEnemyController : MonoBehaviour
     public void Fix()
     {
         aggressive = false;
+
         rigidbody2d.simulated = false;
+
+
+
         Destroy(gameObject);
-        Debug.Log("AIeeee");
+
+
     }
 
     private void OnDestroy()
     {
+
         Instantiate(deathParticles, transform.position, Quaternion.identity);
-        
+
     }
 }

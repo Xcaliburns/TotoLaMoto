@@ -35,6 +35,9 @@ public class PlayerController : MonoBehaviour
 
     bool open = false;
 
+    AudioSource audioSource;
+    public AudioClip hitedSound;
+
 
 
 
@@ -51,6 +54,7 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         canShot = true;
         talkAction.performed += FindFriend;
+        audioSource = GetComponent<AudioSource>();
     }
 
 
@@ -96,6 +100,8 @@ public class PlayerController : MonoBehaviour
             isInvincible = true;
             damageCooldown = timeInvincible;
             animator.SetTrigger("Hit");
+            PlaySound(hitedSound);
+            
         }
 
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
@@ -128,6 +134,8 @@ public class PlayerController : MonoBehaviour
             projectile.Launch(moveDirection, 300);
             animator.SetTrigger("Launch");
             canShot = false;
+
+            
         }
         else
         {
@@ -178,6 +186,11 @@ public class PlayerController : MonoBehaviour
 
         UiHandlerNew.Instance.SetText(dialogueToDisplay);
 
+    }
+
+    public void PlaySound(AudioClip clip)
+    {
+        audioSource.PlayOneShot(clip);
     }
 
 

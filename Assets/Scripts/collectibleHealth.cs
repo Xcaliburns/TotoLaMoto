@@ -7,10 +7,9 @@ public class collectibleHealth : MonoBehaviour
 
 {
     public int amount = 1;
+    public AudioClip collectibleClip;
 
-    // Start is called before the first frame update
-
-
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         PlayerController controller = other.GetComponent<PlayerController>();
@@ -18,6 +17,7 @@ public class collectibleHealth : MonoBehaviour
         if (controller != null && controller.Health < controller.maxHealth)
         {
             controller.ChangeHealth(amount);
+            controller.PlaySound(collectibleClip);
             Destroy(gameObject);
 
         }
