@@ -41,7 +41,7 @@ Grid:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4336798902109326466}
   m_Enabled: 1
-  m_CellSize: {x: 8.45, y: 6.82, z: 0}
+  m_CellSize: {x: 1, y: 1, z: 0}
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
@@ -786,23 +786,23 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 639e0947425b33a43943aca096e2d45b, type: 2}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: a2ee768598947184dae335e2f6e22382, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 834a17804a987ad46aef59865d22e0df, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 9e6c615bb0b61b0499dad8db38f57eaf, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 25db23f233bc41b4bb74ec44d1247987, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 579c35a6c01a68248a9b18057cb51eac, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: c4f62a2f5ed02a848b379ab74bf345cf, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 441bd16a330c8af418892c4f064eaf53, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 2a75e6d09ec4ab34e897bac9fe0dac98, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: b08cf5af6d6399143b4dcca2ca8ec1f3, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 938ffc7e56698df4d9f5f3a9812c2415, type: 2}
   - m_RefCount: 1
@@ -822,59 +822,59 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 0fe67b5e5e6d8274192d46fcb487ef2b, type: 2}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: ae8b8801724d94e48950cfff5f94ff50, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 8a4345adc31ea4f439cfe050bb8d045b, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 322bddfacb137074584a7207f15ceada, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 40a0d5904c5f4a3429e8f463fb871e62, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: fbf7f3b2c45a1db4db62fa9914e294e4, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: aa6d8f23f0a3f2e4fac1d2d8e1530515, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 8014c30bfe3a0374cab0c99902264110, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: ee73efd196cdedf46aabb72b53dcc54a, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 4b4d0c9cc9d8ef147aa012b3c15c723f, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 4d6da722e80c7544bb571a2e6b589482, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 293b06ec305fd374ca7a260517788f86, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 24af7abd174cec346bcb9d0a3a3c23f0, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 795f2901da587734d9e885a5f5603f54, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: f258889149bb7b34d834b0baa2392310, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 9d839e49d12de2342b738490d069b0da, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: ca1b4b60ec49b5d4a8477bd61d160182, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 0a94d9997a7194c4a9d627f6aa744c12, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 3c056fd88467eb245b611a05bba714f1, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: baa10d719cf07f546969b2e68a854d0b, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: cef93c88654f7bd40843e27d5731b23c, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: a45ef007b8038664792839ff18d6a390, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 4682ec922b058f2448edb7eb59feaf94, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: e2a7e3eb9f6df6b409cf3104ee58ed12, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 672123cd436fde64193f57791f6f7128, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 4f2769ed81ef49643be28ac070e822bd, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 9e8c90be4ea82d2439dbd1c877b02048, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 9ab0c42f5ad71804f88ef62fbd95d61f, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 6ed5ab11d0ca4d6439e2810db7f64bb6, type: 2}
   - m_RefCount: 1
@@ -894,7 +894,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 043dd3da56aa821458c74ba3129c99c1, type: 2}
   - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: c39c06ee5ea943447b4e687da30631ac, type: 2}
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 385f1d8091b0e7b47b777b486350e18a, type: 2}
   - m_RefCount: 1
@@ -1144,7 +1144,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 3.725, y: 2.91, z: 0}
+  m_ChunkCullingBounds: {x: 5.5649114, y: 5.7197866, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -1163,6 +1163,6 @@ MonoBehaviour:
   m_Script: {fileID: 12395, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: Palette Settings
   m_EditorClassIdentifier: 
-  cellSizing: 0
-  m_TransparencySortMode: 0
+  cellSizing: 100
+  m_TransparencySortMode: 2
   m_TransparencySortAxis: {x: 0, y: 0, z: 1}

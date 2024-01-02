@@ -1,4 +1,5 @@
 using System;
+using System.Reflection.Emit;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -31,6 +32,11 @@ public class PlayerController : MonoBehaviour
 
     public bool canShot;
     public float nextShot = 0.1f;
+
+    bool open = false;
+
+
+
 
 
     // Start is called before the first frame update
@@ -92,8 +98,6 @@ public class PlayerController : MonoBehaviour
             animator.SetTrigger("Hit");
         }
 
-
-
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
 
         try
@@ -134,19 +138,46 @@ public class PlayerController : MonoBehaviour
     }
 
     void FindFriend(InputAction.CallbackContext context)
-
     {
-
         Vector2 start = rigidbody2d.position + Vector2.up * 0.2f;
         Vector2 direction = moveDirection;
-        float distance = 1f;       
+        float distance = 1f;
 
         RaycastHit2D hit = Physics2D.Raycast(start, direction, distance, LayerMask.GetMask("NPC"));
 
-        if (hit.collider != null)
+        if (hit.collider != null && UiHandlerNew.Instance != null && open == false )
         {
-            Debug.Log("salut mec ça gaze ?" + hit.collider.gameObject);
+            
+            Dialogue();
+            open = true;
+            // UiHandlerNew.Instance.DisplayDialogue(); //version timer
+            UiHandlerNew.Instance.OpenDialogWindow(true);
+
         }
+        else if (hit.collider != null && UiHandlerNew.Instance != null && open == true)
+        {
+
+            Dialogue();
+
+            // UiHandlerNew.Instance.DisplayDialogue(); //version timer
+            UiHandlerNew.Instance.OpenDialogWindow(false);
+            open = false;
+
+        }
+        else
+        {          
+            UiHandlerNew.Instance.OpenDialogWindow(false);
+        }
+    }
+
+    private void Dialogue()
+    {
+        GameObject npcObject = GameObject.Find("NPC");
+        MyNpc myNpc = npcObject.GetComponent<MyNpc>();
+        string dialogueToDisplay = myNpc.textToDisplay;
+
+        UiHandlerNew.Instance.SetText(dialogueToDisplay);
+
     }
 
 
