@@ -5,7 +5,11 @@ using UnityEngine.InputSystem;
 
 
 public class PlayerController : MonoBehaviour
+
 {
+    string NPCName;
+    
+
     // Character Movements
     public InputAction MoveAction;
     public InputAction launchAction;
@@ -13,6 +17,7 @@ public class PlayerController : MonoBehaviour
     public float speed = 10f;
     Rigidbody2D rigidbody2d;
     Vector2 move;
+   
 
 
     // character Health
@@ -55,6 +60,8 @@ public class PlayerController : MonoBehaviour
         canShot = true;
         talkAction.performed += FindFriend;
         audioSource = GetComponent<AudioSource>();
+       
+        
     }
 
 
@@ -153,40 +160,32 @@ public class PlayerController : MonoBehaviour
 
         RaycastHit2D hit = Physics2D.Raycast(start, direction, distance, LayerMask.GetMask("NPC"));
 
-        if (hit.collider != null && UiHandlerNew.Instance != null && open == false )
+        if (hit.collider != null && UiHandlerNew.Instance != null && open == false)
         {
-            
-            Dialogue();
+            Dialogue(hit.collider.gameObject);
             open = true;
-            // UiHandlerNew.Instance.DisplayDialogue(); //version timer
             UiHandlerNew.Instance.OpenDialogWindow(true);
-
         }
         else if (hit.collider != null && UiHandlerNew.Instance != null && open == true)
         {
-
-            Dialogue();
-
-            // UiHandlerNew.Instance.DisplayDialogue(); //version timer
+            NPCName = hit.collider.gameObject.name;
+            Dialogue(hit.collider.gameObject);
             UiHandlerNew.Instance.OpenDialogWindow(false);
             open = false;
-
         }
         else
-        {          
+        {
             UiHandlerNew.Instance.OpenDialogWindow(false);
         }
     }
 
-    private void Dialogue()
+    private void Dialogue(GameObject npcObject)
     {
-        GameObject npcObject = GameObject.Find("NPC");
         MyNpc myNpc = npcObject.GetComponent<MyNpc>();
         string dialogueToDisplay = myNpc.textToDisplay;
-
         UiHandlerNew.Instance.SetText(dialogueToDisplay);
-
     }
+
 
     public void PlaySound(AudioClip clip)
     {
